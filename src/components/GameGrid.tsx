@@ -23,7 +23,7 @@ const GameGrid = ({ selectedGenre }: Props) => {
           lg: 3,
           xl: 5,
         }}
-        padding={10}
+        paddingY={2}
         spacing={3}
       >
         {isLoading &&
